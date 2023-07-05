@@ -1,0 +1,26 @@
+.header {
+    height: 108px;
+    background-color: $secondary;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    @include shadow('lg');
+    
+    @include max('sm') {
+        padding: 5em;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+            max-width: 200px;
+            @include max('sm') {
+                max-width: 170px;
+            }
+        }
+    }
+}

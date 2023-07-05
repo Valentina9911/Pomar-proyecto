@@ -1,0 +1,48 @@
+$width-border-square: 2px;
+.description {
+    width: 100%;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary;
+    
+    @include max('sm') {
+        min-height: 55vh;
+        padding: 3em;
+    }
+    h1 {
+        color: $primary;
+        font-size: 2.5em;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 2.1px;
+
+    }
+    h2 {
+        color: $white;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    @include max('sm'){
+        h1{
+            font-size: 1.7em;
+        }
+        h2{
+            font-size: 1.3em;
+        }
+    }
+}
+
+.square {
+    max-width: 50%;
+    @include max('sm') {
+        max-width: 100%;
+    }
+    &__logo {
+        padding-bottom: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

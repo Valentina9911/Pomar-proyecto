@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="64" viewBox="0 0 65 64">
+  <g id="Group_455" data-name="Group 455" transform="translate(-1510 -1317)">
+    <g id="Group_451" data-name="Group 451" transform="translate(1510.1 1317.479)">
+      <ellipse id="Ellipse_16" data-name="Ellipse 16" cx="32.5" cy="32" rx="32.5" ry="32" transform="translate(-0.1 -0.479)" fill="#fc8468"/>
+    </g>
+    <g id="table-tennis" transform="translate(1521 1329.793)">
+      <path id="Path_605" data-name="Path 605" d="M338.754,42.01a14.11,14.11,0,0,0-3.629-2.63,16.439,16.439,0,0,1-7.2,26.523l.125.125a14.081,14.081,0,0,0,10.7-24.018Z" transform="translate(-301.303 -36.025)" fill="#fff"/>
+      <path id="Path_606" data-name="Path 606" d="M114.053,368.147l-4.806,4.806,2.167,2.167,7.12-7.12q-.667-.139-1.323-.333Z" transform="translate(-100.377 -337.658)" fill="#fff"/>
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="4.174" cy="4.174" r="4.174" transform="translate(20.61 33.364)" fill="#fff"/>
+      <path id="Path_607" data-name="Path 607" d="M104.963,28.314A14.081,14.081,0,0,0,115.665,4.3,14.082,14.082,0,0,0,91.938,11.3,14.142,14.142,0,0,0,91.648,15Z" transform="translate(-84.189)" fill="#fff"/>
+      <path id="Path_608" data-name="Path 608" d="M8.121,233.357,7.5,237.468,0,244.963l5.062,5.062,7.495-7.495,4.112-.626Z" transform="translate(0 -214.253)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

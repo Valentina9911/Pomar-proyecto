@@ -1,0 +1,240 @@
+:root {
+	--swiper-theme-color: #fff;
+}
+
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+
+	@include max('sm') {
+		flex-direction: column;
+		padding-left: 0;
+		height: auto;
+	}
+
+	&__overlay {
+		height: 100%;
+		width: 40%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		opacity: .7;
+		background-color: $secondary;
+
+		@include max('sm') {
+			opacity: 0.6;
+			width: 100%;
+			z-index: 15;
+		}
+	}
+
+	&__contentleft {
+		width: 50%;
+
+		@include max('sm') {
+			width: 100%;
+			padding-bottom: 3em;
+			order: 2;
+		}
+	}
+
+	&__logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+			width: 100%;
+			max-width: 55%;
+		}
+	}
+
+	&__content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+
+		@include max('sm') {
+			width: 100%;
+		}
+	}
+
+	.section-gallery {
+		width: 60%;
+		height: 100vh;
+
+		// background-color: $secondary;
+		@include max('sm') {
+			width: 100%;
+		}
+
+		.swiper-button-next,
+		.swiper-button-prev {
+			@include max('sm') {
+				display: none !important;
+			}
+		}
+
+		.swiper-wrapper {
+			height: 100%;
+			width: 100%;
+
+		}
+
+		img {
+			object-fit: cover;
+			height: 100vh;
+			width: 100%;
+			display: block;
+		}
+	}
+
+	&__title {
+		text-align: left;
+		background-color: real;
+
+		h2 {
+			font-weight: 900;
+			color: $white;
+			margin: 0;
+			font-size: 2.5em;
+		}
+	}
+
+	&__form {
+		width: 40%;
+		padding: 1em 4em;
+		position: relative;
+
+		&--aliso {
+			h3 {
+				color: $secondary !important;
+			}
+		}
+
+		@include max('sm') {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100vh;
+			z-index: 20;
+			padding: 2em;
+		}
+
+		&__title {
+			color: $white;
+			font-weight: 400;
+			margin: 1em 0;
+
+			&--aliso {
+				h2 {
+					color: $primary !important;
+				}
+
+				img {
+					width: 100%;
+					max-width: 230px;
+					margin-bottom: 25px;
+				}
+
+				@include max('sm') {
+					img {
+						max-width: 150px;
+						display: none;
+					}
+				}
+			}
+
+			h2 {
+				color: $white;
+				font-weight: 800;
+				font-size: 2em;
+
+				span {
+					font-size: 1rem;
+				}
+			}
+
+			h3 {
+				color: $primary;
+				font-size: 1.5em;
+			}
+
+			p {
+				font-size: .48em;
+				color: white;
+				font-weight: 100;
+				margin-top: 0.1em;
+			}
+		}
+
+		&__terms {
+			font-size: 0.9em;
+			color: $white;
+			line-height: 1em;
+			margin-bottom: 2em;
+
+			a {
+				color: #6AA3CC;
+			}
+
+			&--aliso {
+				color: #17294B !important;
+			}
+		}
+
+		.form-field {
+			margin-bottom: 1em;
+		}
+
+		.btn {
+			font-weight: bold;
+			font-size: 1em;
+			letter-spacing: 3px;
+
+			@include max('sm') {
+				width: 100%;
+			}
+		}
+	}
+}
+
+input[type=checkbox] {
+	width: 1px;
+	background-color: transparent;
+	margin-left: 5px;
+	position: absolute;
+	z-index: 1;
+}
+
+label input[type=checkbox]~span {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	background: $white;
+	border: 1px solid $primary;
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+	border-radius: $borderRadius;
+	z-index: 10;
+	position: relative;
+}
+
+label input[type=checkbox]:checked~span {
+	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M14 18L26 6l4 4-16 16L4 16l4-4z"/></svg>');
+	background-size: 100%;
+	background-color: $white;
+}

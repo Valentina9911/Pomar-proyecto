@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.398" height="79.398" viewBox="0 0 79.398 79.398">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_434" data-name="Path 434" d="M0,0H79.4V-79.4H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_261" data-name="Group 261" transform="translate(0 79.398)">
+    <g id="Group_255" data-name="Group 255" clip-path="url(#clip-path)">
+      <g id="Group_253" data-name="Group 253" transform="translate(53.184 -43.744)">
+        <path id="Path_432" data-name="Path 432" d="M0,0A2.329,2.329,0,0,1-2.33,2.331,2.329,2.329,0,0,1-4.661,0,2.329,2.329,0,0,1-2.33-2.33,2.33,2.33,0,0,1,0,0" fill="#fc8468"/>
+      </g>
+      <g id="Group_254" data-name="Group 254" transform="translate(56.946 -47.502)">
+        <path id="Path_433" data-name="Path 433" d="M0,0A2.331,2.331,0,0,1-2.331,2.331,2.331,2.331,0,0,1-4.663,0,2.33,2.33,0,0,1-2.331-2.331,2.331,2.331,0,0,1,0,0" fill="#fc8468"/>
+      </g>
+    </g>
+    <g id="Group_256" data-name="Group 256" transform="translate(25.04 -48.219)">
+      <path id="Path_435" data-name="Path 435" d="M0,0H-3.433V3.261h-3.26V6.693h3.26v3.26H0V6.693H3.26V3.261H0Z" fill="#fc8468"/>
+    </g>
+    <g id="Group_260" data-name="Group 260" clip-path="url(#clip-path)">
+      <g id="Group_257" data-name="Group 257" transform="translate(39.698 -79.398)">
+        <path id="Path_436" data-name="Path 436" d="M0,0A39.7,39.7,0,0,0-39.7,39.7,39.7,39.7,0,0,0,0,79.4,39.7,39.7,0,0,0,39.7,39.7,39.7,39.7,0,0,0,0,0M20.4,57.192H16.882L9.311,45.112H-9.308l-7.573,12.08H-20.4a5.018,5.018,0,0,1-5.017-5.018l1.115-17.56c0-.057.007-.1.008-.152s-.008-.112-.008-.169A10.736,10.736,0,0,1-13.561,23.557a9.126,9.126,0,0,1,5.969,2.227A23.012,23.012,0,0,1-.984,24.358H.984a23,23,0,0,1,6.609,1.426,9.127,9.127,0,0,1,5.97-2.227A10.736,10.736,0,0,1,24.3,34.293c0,.057-.008.112-.008.169s.008.1.008.152l1.114,17.56A5.016,5.016,0,0,1,20.4,57.192" fill="#fc8468"/>
+      </g>
+      <g id="Group_258" data-name="Group 258" transform="translate(60.705 -43.743)">
+        <path id="Path_437" data-name="Path 437" d="M0,0A2.331,2.331,0,0,1-2.33,2.331,2.331,2.331,0,0,1-4.661,0,2.331,2.331,0,0,1-2.33-2.331,2.331,2.331,0,0,1,0,0" fill="#fc8468"/>
+      </g>
+      <g id="Group_259" data-name="Group 259" transform="translate(56.945 -39.982)">
+        <path id="Path_438" data-name="Path 438" d="M0,0A2.331,2.331,0,0,1-2.331,2.331,2.332,2.332,0,0,1-4.663,0,2.332,2.332,0,0,1-2.331-2.331,2.331,2.331,0,0,1,0,0" fill="#fc8468"/>
+      </g>
+    </g>
+  </g>
+</svg>

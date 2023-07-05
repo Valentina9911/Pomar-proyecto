@@ -1,0 +1,140 @@
+.map {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    @include max('sm') {
+        flex-direction: column;
+        padding: 0;
+    }
+    &__image {
+        width: 70%;
+        @include max('sm') {
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            display: none;
+            cursor: pointer;
+            &:first-child {
+                display: block;
+            }
+        }
+    }
+    &__address {
+        border-left: 0;
+        height: 50%;
+        padding: 5em;
+        
+        @include max('sm') {
+            width: 100%;
+            padding: 1em;
+        }
+        h2 {
+            color: $primary;
+            font-size: 2.3em;
+            font-weight: 600;
+            margin-bottom: 1em;
+            @include max('sm') {
+                font-size: 1.7em;
+            }
+        }
+        h4 {
+            margin-bottom: 6px;
+            @include max('sm') {
+                font-size: 21px;
+                text-align: center;
+            }
+        }
+        a {
+            color: $secondary;
+            line-height: 1em;
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 0 0 6px 0;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+            img {
+                width: 50px;
+                margin-right: 0.5em;
+            }
+            @include max('sm') {
+                font-size: 2em;
+            }
+        }
+        a.a-small {
+            color: $secondary;
+            font-size: 1.1em;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            img {
+                width: 20px;
+                margin-right: 1em;
+            }
+        }
+    }
+}
+
+.contact {
+    display: flex;
+    padding: 2em 5em;
+    align-items: center;
+    background-color: #F8F8F8;
+    @include max('sm') {
+        flex-direction: column;
+        padding: 1em 0em;
+    }
+
+    h4 {
+        margin-bottom: 6px;
+        width: 350px;
+        margin-right: 4em;
+        font-size: 1.1em;
+        @include max('sm') {
+            font-size: 21px;
+            margin-right: 0em;
+            text-align: center;
+        }
+
+        .a-small {
+            color: $primary;
+            font-size: 1.1em;
+        }
+    }
+    
+    a {
+        color: $secondary;
+        line-height: 1em;
+        font-size: 2.7em;
+        font-weight: bold;
+        margin: 0 0 6px 0;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        width: 30%;
+        @include max('sm') {
+            width: 100%;
+            margin-bottom: 0em;
+            font-size: 2em;
+            margin-left: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 70px;
+            margin-right: 0.5em;
+            @include max('sm') {
+                width: 40px;
+            }
+        }
+
+      
+        
+    }
+}

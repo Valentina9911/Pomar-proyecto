@@ -1,0 +1,88 @@
+.footer {
+    background-color: $primary;
+    padding: 4em 5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include max('sm') {
+        flex-direction: column;
+        padding: 3em;
+    }
+    &__logo {
+        
+        @include max('sm') {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3em;
+            border: none;
+        }
+        img {
+            max-width: 200px;
+        }
+    }
+    &__disclaimer {
+        font-size: 0.8em;
+        line-height: 0.9em;
+        color: $white;
+        width: 35%;
+        text-align: right;
+        @include max('sm') {
+            width: 100%;
+            margin-bottom: 2em;
+            order: 3;
+        }
+    }
+    &__korner {
+        width: 40%;
+        @include max('sm') {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3em;
+            border: none;
+        }
+        img {
+            max-width: 200px;
+        }
+    }
+    .line{
+        height: 85px;
+        width: 3px;
+        background-color: $white;
+        
+        @include max('sm'){
+            height: 65px;
+            width: 2px;
+            display: none;
+        }
+    }
+}
+
+.whatapp-button{
+    position:fixed;
+    z-index: 1000;
+    bottom:50%;
+    right:0px;
+    width: 75px;
+    height: 65px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color:#4FCA5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 2px 2px 3px #999;
+    img{
+        width: 45px;
+    }
+    @include max('sm'){
+        width: 60px;
+        height: 55px;
+        img{
+            width: 40px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import 'sweetalert2/src/sweetalert2';
+@import '~swiper/swiper-bundle.css';
+
+// Variables
+
+@import 'vars';
+
+// Mixins
+
+@import 'mixins/color';
+@import 'mixins/grid';
+@import 'mixins/responsive';
+@import 'mixins/utils';
+
+// Base
+
+@import 'base/reset';
+@import 'base/base';
+
+// Components
+
+@import 'components/typography';
+@import 'components/grid';
+@import 'components/alerts';
+@import 'components/forms';
+// @import 'components/tables';
+@import 'components/selects';
+@import 'components/paginations';
+@import 'components/buttons';
+@import 'components/helper';
+
+@import 'partials/header.scss';
+@import 'partials/footer.scss';
+
+@import 'sections/hero.scss';
+@import 'sections/items.scss';
+@import 'sections/description.scss';
+@import 'sections/map.scss';
+@import 'sections/image_description.scss';
+@import 'sections/zones.scss';
+@import 'sections/aliso-plants.scss';
+
+@import 'vendor/sweetalert';
+
+
+
